@@ -67,6 +67,14 @@ header #branding h1{
   margin: 0;
 }
 
+header #branding .home_logo{
+  padding: 0;
+  float: left;
+  display: inline;
+  width: 45px;
+  height: auto;
+}
+
 header nav{
   float: right;
   margin-top: 10px;
@@ -106,7 +114,7 @@ header a:hover{
 /* newsletter */
 
 #newsletter{
-  padding: 15px;
+  padding: 0px;
   color: #ffffff;
   background: #35424a;
 }
@@ -116,7 +124,7 @@ header a:hover{
 
 #newsletter form{
   float: right;
-  margin-top: 15px;
+  margin-top: 0px;
 }
 
 #newsletter input[type="email"]{
