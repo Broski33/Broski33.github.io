@@ -124,7 +124,7 @@ header a:hover{
 
 #newsletter form{
   float: right;
-  margin-top: 0px;
+  margin-top: 15px;
 }
 
 #newsletter input[type="email"]{
