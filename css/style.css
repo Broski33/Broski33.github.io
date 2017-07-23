@@ -6,7 +6,6 @@ body {
   margin: 0;
   background-color: #f4f4f4;
 }
-/*shortcut for above= font: 15px/1.5 Arial, Helvetica, sans-serif;*/
 
 /*below is global*/
 
@@ -192,13 +191,7 @@ footer{
 
 footer p{
   width: 50%;
-  text-align: left;
-}
-.bottom_nav {
-  padding: 0;
-  margin: 0;
-  float: right;
-  display: inline-block;
+  text-align: center;
 }
 
 /* Media Queries */
