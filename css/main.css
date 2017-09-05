@@ -1,3 +1,7 @@
+.new-nodev {
+    text-align: center;
+}
+
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -24,7 +28,7 @@ img {
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
-    background-color: #5e4485;
+    background-color: #2F3EF7;
     color: #FFF;
     padding: 1% 0;
     font-size: 1.2em;
@@ -40,7 +44,7 @@ img {
 
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
     color: #FFF;
-    background-color: #5e4482;
+    background-color: #2F3EF7;
 }
 
 .navbar-inverse .navbar-nav li a {
@@ -60,7 +64,7 @@ img {
     font-size: 18px;
     color: #FFF;
     padding: 12px 22px;
-    background-color: #5e4485;
+    background-color: #2F3EF7;
     border: 2px solid #FFF;
 }
 
@@ -75,9 +79,11 @@ img {
 
 footer {
     width: 100%;
-    background-color: #5e4486;
     padding: 10px;
+    background-color: #2F3EF7;
     color: #FFF;
+    text-shadow: 1px 1px 1px black;
+    border-top: 1px solid rgba(0,0,0,0.3);
 }
 
 footer img {
