@@ -1,0 +1,35 @@
+/*!
+ * Start Bootstrap - The Big Picture (http://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+
+body {
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #FFF;
+}
+
+nav {
+    position: fixed;
+}
+
+#h1-home {
+    text-align: center;
+}
+
+#h1-about {
+    text-align: center;
+}
+
+#tab {
+    padding-left:2em;
+}
+
+#no-space {
+    padding: 0;
+    margin: 0;
+}
