@@ -25,9 +25,25 @@
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
 
+    <style>
+      ::-webkit-scrollbar {
+        width: 12px;
+    }
+      ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,255,0.8); 
+        border-radius: 10px;
+    }
+      ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,255,0.7); 
+    }
+  </style>
+
   </head>
 
   <body id="page-top">
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -129,14 +145,15 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <!-- Map Section --><!--
-    <div id="map"></div>
-    -->
     <h5 class="cotnainer text-center">---------------------------------------------------------------------------------</h5>
     <h3 class="cotnainer text-center" id="contact">Contact Area Coming Soon</h3>
     <h5 class="cotnainer text-center">---------------------------------------------------------------------------------</h5>
+
+    <!-- Map Section -->
+    <div id="map"></div>
+
     <!-- Footer -->
     <footer>
       <div class="container text-center">
