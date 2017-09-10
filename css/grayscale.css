@@ -22,6 +22,13 @@
   background-color: gray; /* Add a dark-grey background on hover */
 }
 
+.note {
+  font-size: 10px;
+}
+
+.staff-section {
+  background-color: #085808;
+}
  body {
   font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   position: relative;
